@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="orderServiceBean" class="com.f.spring6.service.OrderService">
+        <property name="orderDao">
+            <!--在property标签中使用嵌套的bean标签，这就是内部Bean-->
+            <bean class="com.f.spring6.dao.OrderDao"/>
+        </property>
+    </bean>
+
+    <!--注入简单类型-->
+    <bean id="userBean" class="com.f.spring6.bean.User">
+        <!--如果是给简单类型赋值，就不能使用ref了，而是使用value-->
+        <property name="username" value="root"/>
+        <property name="password" value="root"/>
+        <property name="age" value="100"/>
+    </bean>
+
+    <!--让spring来管理我们的数据源-->
+    <bean id="myDataSourceBean" class="com.f.spring6.jdbc.MyDataSource">
+        <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/spring6"/>
+        <property name="username" value="root"/>
+        <property name="password" value="root"/>
+    </bean>
+
+    <bean id="personBean" class="com.f.spring6.bean.Person">
+        <!--注入数组，这个数组当中的元素类型是简单类型-->
+        <property name="hobbies">
+            <array>
+                <value>sing</value>
+                <value>dance</value>
+                <value>rap</value>
+                <value>basketball</value>
+            </array>
+        </property>
+        <!--注入数组，这个数组当中的元素类型是非简单类型-->
+        <property name="pets">
+            <array>
+                <ref bean="pet1"/>
+                <ref bean="pet2"/>
+                <ref bean="pet3"/>
+            </array>
+        </property>
+    </bean>
+
+    <bean id="pet1" class="com.f.spring6.bean.Pet">
+        <property name="name" value="小狗"/>
+    </bean>
+    <bean id="pet2" class="com.f.spring6.bean.Pet">
+        <property name="name" value="小猫"/>
+    </bean>
+    <bean id="pet3" class="com.f.spring6.bean.Pet">
+        <property name="name" value="小鸟"/>
+    </bean>
+
+    <bean id="catBean" class="com.f.spring6.bean.Cat">
+        <!--不给属性注入，属性的默认值就是null-->
+        <!--<property name="name" value="tom"/>-->
+        <!--手动给属性注入null-->
+        <!--<property name="name">-->
+        <!--    <null/>-->
+        <!--</property>-->
+        <!--给属性注入空字符串-->
+        <property name="name" value=""/>
+        <property name="age" value="1"/>
+    </bean>
+
+    <bean id="mathBean" class="com.f.spring6.bean.Math">
+        <!--第一种方案：使用实体符号代替特殊符号-->
+        <!--<property name="result" value="2 &lt; 3"/>-->
+        <!--第二种方案：使用<![CDATA[]]>-->
+        <property name="result">
+            <!--只能使用value标签-->
+            <value><![CDATA[2 < 3]]></value>
+        </property>
+    </bean>
+</beans>

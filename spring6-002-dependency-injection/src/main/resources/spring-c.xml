@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--
+        第一步：在spring配置文件头部添加c命名空间：xmlns:c="http://www.springframework.org/schema/c"
+        第二步：使用
+            c:_0 下标方式
+            c:name 参数名方式
+    -->
+    <bean id="birdBean" class="com.f.spring6.bean.Bird" c:name="黄雀" c:color="yellow"/>
+</beans>

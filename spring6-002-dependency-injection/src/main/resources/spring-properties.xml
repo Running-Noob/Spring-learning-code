@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--
+        引入外部的jdbc.properties文件：
+            第一步：引入context命名空间
+                xmlns:context="http://www.springframework.org/schema/context"
+                http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+            第二步：使用标签context:property-placeholder的location属性来指定属性配置文件的路径
+                location默认从类的根路径下开始加载资源
+            第三步：从配置文件中取值：${key}
+                ${key}会优先从系统环境变量中加载值，所以一般在properties中会给key加上前缀
+    -->
+    <context:property-placeholder location="jdbc.properties"/>
+    <!--配置数据源-->
+    <bean id="myDataSource" class="com.f.spring6.jdbc.MyDataSource">
+        <property name="driver" value="${jdbc.driver}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+</beans>

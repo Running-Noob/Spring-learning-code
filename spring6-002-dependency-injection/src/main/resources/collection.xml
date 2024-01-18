@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="peopleBean" class="com.f.spring6.bean.People">
+        <!--注入List集合-->
+        <property name="names">
+            <!--list集合有序可重复-->
+            <list>
+                <value>张三</value>
+                <value>张三</value>
+                <value>张三</value>
+                <value>李四</value>
+                <value>王五</value>
+            </list>
+        </property>
+        <!--注入Set集合-->
+        <property name="addrs">
+            <!--set集合无序不可重复-->
+            <set>
+                <ref bean="addr1"/>
+                <ref bean="addr2"/>
+                <ref bean="addr3"/>
+            </set>
+        </property>
+    </bean>
+    <bean id="addr1" class="com.f.spring6.bean.Address">
+        <property name="location" value="Shanghai"/>
+    </bean>
+    <bean id="addr2" class="com.f.spring6.bean.Address">
+        <property name="location" value="Beijing"/>
+    </bean>
+    <bean id="addr3" class="com.f.spring6.bean.Address">
+        <property name="location" value="Wuhan"/>
+    </bean>
+
+    <bean id="schoolBean" class="com.f.spring6.bean.School">
+        <!--注入Map集合-->
+        <property name="school">
+            <map>
+                <!--
+                    如果key和value是简单类型，就用这种配置：
+                    <entry key="" value=""/>
+                -->
+                <!--如果key和value是非简单类型，就用下面这种配置-->
+                <entry key-ref="clazzBean" value-ref="studentBean"/>
+            </map>
+        </property>
+    </bean>
+    <bean id="clazzBean" class="com.f.spring6.bean.Clazz">
+        <property name="name" value="高三一班"/>
+    </bean>
+    <bean id="studentBean" class="com.f.spring6.bean.Student">
+        <property name="name" value="张三"/>
+        <property name="clazz" ref="clazzBean"/>
+    </bean>
+
+    <bean id="dataSourcePropertiesBean" class="com.f.spring6.bean.DataSourceProperties">
+        <!--注入properties属性-->
+        <property name="properties">
+            <props>
+                <prop key="driver">com.mysql.cj.jdbc.Driver</prop>
+                <prop key="url">jdbc:mysql://localhost:8080/javaweb</prop>
+                <prop key="username">root</prop>
+                <prop key="password">root</prop>
+            </props>
+        </property>
+    </bean>
+</beans>

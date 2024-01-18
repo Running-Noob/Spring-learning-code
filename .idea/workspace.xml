@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -44,7 +44,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Running Noob/Code Project/Spring-learning-code",
+    "last_opened_file_path": "C:/Users/Running Noob/Code Project/Spring-learning-code/spring6-002-dependency-injection/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,13 +53,18 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "e39b77968b07688c295be479160e3e01",
+    "spring.configuration.checksum": "add154ea71d3015c52e126d7e4ab5346",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.FirstSpringTest.testLog4j2">
-    <configuration name="FirstSpringTest.testLog4j2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-001-first" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Running Noob\Code Project\Spring-learning-code\spring6-002-dependency-injection\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SpringDITest.testProperties">
+    <configuration name="SpringDITest.testAutoWire" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-002-dependency-injection" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.f.spring6.test.*" />
@@ -67,15 +72,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.f.spring6.test" />
-      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.FirstSpringTest" />
-      <option name="METHOD_NAME" value="testLog4j2" />
+      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.SpringDITest" />
+      <option name="METHOD_NAME" value="testAutoWire" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstSpringTest.testSpringFirstCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-001-first" />
+    <configuration name="SpringDITest.testC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-002-dependency-injection" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.f.spring6.test.*" />
@@ -83,8 +88,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.f.spring6.test" />
-      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.FirstSpringTest" />
-      <option name="METHOD_NAME" value="testSpringFirstCode" />
+      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.SpringDITest" />
+      <option name="METHOD_NAME" value="testC" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDITest.testP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-002-dependency-injection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.f.spring6.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.f.spring6.test" />
+      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.SpringDITest" />
+      <option name="METHOD_NAME" value="testP" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDITest.testProperties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-002-dependency-injection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.f.spring6.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.f.spring6.test" />
+      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.SpringDITest" />
+      <option name="METHOD_NAME" value="testProperties" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDITest.testUtil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-002-dependency-injection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.f.spring6.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.f.spring6.test" />
+      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.SpringDITest" />
+      <option name="METHOD_NAME" value="testUtil" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,8 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FirstSpringTest.testLog4j2" />
-        <item itemvalue="JUnit.FirstSpringTest.testSpringFirstCode" />
+        <item itemvalue="JUnit.SpringDITest.testProperties" />
+        <item itemvalue="JUnit.SpringDITest.testAutoWire" />
+        <item itemvalue="JUnit.SpringDITest.testUtil" />
+        <item itemvalue="JUnit.SpringDITest.testC" />
+        <item itemvalue="JUnit.SpringDITest.testP" />
       </list>
     </recent_temporary>
   </component>
@@ -109,6 +165,10 @@
       <workItem from="1705149987418" duration="2685000" />
       <workItem from="1705158355373" duration="15000" />
       <workItem from="1705208898562" duration="6080000" />
+      <workItem from="1705220847398" duration="12000" />
+      <workItem from="1705304619124" duration="11000" />
+      <workItem from="1705472385571" duration="16026000" />
+      <workItem from="1705545225949" duration="4904000" />
     </task>
     <servers />
   </component>
