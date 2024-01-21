@@ -12,9 +12,13 @@
         <module name="spring6-003-scope" />
         <module name="spring6-002-dependency-injection" />
         <module name="spring6-005-bean-lifecycle" />
+        <module name="myspring" />
         <module name="spring6-006-circular-dependency" />
         <module name="spring6-004-bean-instantiation" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
