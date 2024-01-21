@@ -44,7 +44,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Running Noob/Code Project/Spring-learning-code/factory-method/src/main/java/com/f/factory/method",
+    "last_opened_file_path": "C:/Users/Running Noob/Code Project/Spring-learning-code/spring6-005-bean-lifecycle",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,39 +64,7 @@
       <recent name="C:\Users\Running Noob\Code Project\Spring-learning-code\spring6-002-dependency-injection\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BeanInstantiationTest.testInstantiation5">
-    <configuration name="BeanInstantiationTest.testInstantiation1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-004-bean-instantiation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.f.spring6.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.f.spring6.test" />
-      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.BeanInstantiationTest" />
-      <option name="METHOD_NAME" value="testInstantiation1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeanInstantiationTest.testInstantiation2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-004-bean-instantiation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.f.spring6.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.f.spring6.test" />
-      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.BeanInstantiationTest" />
-      <option name="METHOD_NAME" value="testInstantiation2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.BeanLifeCycleTest.testRegisterBean">
     <configuration name="BeanInstantiationTest.testInstantiation3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring6-004-bean-instantiation" />
       <extension name="coverage">
@@ -145,13 +113,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BeanLifeCycleTest.testBeanLifeCycleFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-005-bean-lifecycle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.f.spring6.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.f.spring6.test" />
+      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.BeanLifeCycleTest" />
+      <option name="METHOD_NAME" value="testBeanLifeCycleFive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanLifeCycleTest.testRegisterBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-005-bean-lifecycle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.f.spring6.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.f.spring6.test" />
+      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.BeanLifeCycleTest" />
+      <option name="METHOD_NAME" value="testRegisterBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BeanLifeCycleTest.testRegisterBean" />
+        <item itemvalue="JUnit.BeanLifeCycleTest.testBeanLifeCycleFive" />
         <item itemvalue="JUnit.BeanInstantiationTest.testInstantiation5" />
         <item itemvalue="JUnit.BeanInstantiationTest.testInstantiation4" />
         <item itemvalue="JUnit.BeanInstantiationTest.testInstantiation3" />
-        <item itemvalue="JUnit.BeanInstantiationTest.testInstantiation2" />
-        <item itemvalue="JUnit.BeanInstantiationTest.testInstantiation1" />
       </list>
     </recent_temporary>
   </component>
@@ -175,6 +175,7 @@
       <workItem from="1705734213998" duration="3373000" />
       <workItem from="1705739464924" duration="1709000" />
       <workItem from="1705755411049" duration="5838000" />
+      <workItem from="1705811293945" duration="5769000" />
     </task>
     <servers />
   </component>
