@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/spring-006-bean-lifecycle/pom.xml" />
         <option value="$PROJECT_DIR$/spring-005-bean-lifecycle/pom.xml" />
         <option value="$PROJECT_DIR$/spring6-005-bean-lifecycle/pom.xml" />
+        <option value="$PROJECT_DIR$/spring6-006-circular-dependency/pom.xml" />
       </list>
     </option>
   </component>

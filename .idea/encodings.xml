@@ -15,6 +15,8 @@
     <file url="file://$PROJECT_DIR$/spring6-004-bean-instantiation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring6-005-bean-lifecycle/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring6-005-bean-lifecycle/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring6-006-circular-dependency/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring6-006-circular-dependency/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

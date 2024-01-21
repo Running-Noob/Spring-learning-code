@@ -13,13 +13,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://D:/maven/repository/org/springframework/spring-beans/6.0.8/spring-beans-6.0.8-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -44,7 +47,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Running Noob/Code Project/Spring-learning-code/spring6-005-bean-lifecycle",
+    "last_opened_file_path": "D:/maven/repository/org/springframework/spring-beans/6.0.8/spring-beans-6.0.8.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,50 +56,19 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "0e6b71e7c74543435f873098b532efa8",
+    "spring.configuration.checksum": "93bb2b9824a2f7732a8130d1233f4510",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Running Noob\Code Project\Spring-learning-code\spring6-006-circular-dependency\src\main\java\com\f\spring6\bean2" />
       <recent name="C:\Users\Running Noob\Code Project\Spring-learning-code\factory-method\src\main\java\com\f\factory\method" />
       <recent name="C:\Users\Running Noob\Code Project\Spring-learning-code\spring6-003-scope\src\main\resources" />
       <recent name="C:\Users\Running Noob\Code Project\Spring-learning-code\spring6-002-dependency-injection\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BeanLifeCycleTest.testRegisterBean">
-    <configuration name="BeanInstantiationTest.testInstantiation3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-004-bean-instantiation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.f.spring6.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.f.spring6.test" />
-      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.BeanInstantiationTest" />
-      <option name="METHOD_NAME" value="testInstantiation3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeanInstantiationTest.testInstantiation4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-004-bean-instantiation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.f.spring6.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.f.spring6.test" />
-      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.BeanInstantiationTest" />
-      <option name="METHOD_NAME" value="testInstantiation4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CircularDependencyTest.testCD2">
     <configuration name="BeanInstantiationTest.testInstantiation5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring6-004-bean-instantiation" />
       <extension name="coverage">
@@ -145,13 +117,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CircularDependencyTest.testCD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-006-circular-dependency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.f.spring6.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.f.spring6.test" />
+      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.CircularDependencyTest" />
+      <option name="METHOD_NAME" value="testCD" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CircularDependencyTest.testCD2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-006-circular-dependency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.f.spring6.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.f.spring6.test" />
+      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.CircularDependencyTest" />
+      <option name="METHOD_NAME" value="testCD2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CircularDependencyTest.testCD2" />
+        <item itemvalue="JUnit.CircularDependencyTest.testCD" />
         <item itemvalue="JUnit.BeanLifeCycleTest.testRegisterBean" />
         <item itemvalue="JUnit.BeanLifeCycleTest.testBeanLifeCycleFive" />
         <item itemvalue="JUnit.BeanInstantiationTest.testInstantiation5" />
-        <item itemvalue="JUnit.BeanInstantiationTest.testInstantiation4" />
-        <item itemvalue="JUnit.BeanInstantiationTest.testInstantiation3" />
       </list>
     </recent_temporary>
   </component>
@@ -176,6 +180,7 @@
       <workItem from="1705739464924" duration="1709000" />
       <workItem from="1705755411049" duration="5838000" />
       <workItem from="1705811293945" duration="5769000" />
+      <workItem from="1705823743545" duration="5228000" />
     </task>
     <servers />
   </component>

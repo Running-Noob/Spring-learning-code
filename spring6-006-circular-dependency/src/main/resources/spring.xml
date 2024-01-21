@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--单例模式+set注入下的循坏依赖-->
+    <bean id="husband" class="com.f.spring6.bean.Husband">
+        <property name="name" value="jack"/>
+        <property name="wife" ref="wife"/>
+    </bean>
+    <bean id="wife" class="com.f.spring6.bean.Wife">
+        <property name="name" value="lucy"/>
+        <property name="husband" ref="husband"/>
+    </bean>
+
+    <!--&lt;!&ndash;多例模式+set注入下的循环依赖&ndash;&gt;-->
+    <!--&lt;!&ndash;存在问题，会出现异常BeanCurrentlyInCreationException&ndash;&gt;-->
+    <!--<bean id="husband" class="com.f.spring6.bean.Husband" scope="prototype">-->
+    <!--    <property name="name" value="jack"/>-->
+    <!--    <property name="wife" ref="wife"/>-->
+    <!--</bean>-->
+    <!--<bean id="wife" class="com.f.spring6.bean.Wife" scope="prototype">-->
+    <!--    <property name="name" value="lucy"/>-->
+    <!--    <property name="husband" ref="husband"/>-->
+    <!--</bean>-->
+</beans>
