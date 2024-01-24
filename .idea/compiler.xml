@@ -7,16 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring6-001-first" />
-        <module name="factory-method" />
         <module name="simple-factory" />
         <module name="spring6-003-scope" />
         <module name="spring6-007-ioc-annotation" />
-        <module name="spring6-002-dependency-injection" />
         <module name="spring6-005-bean-lifecycle" />
+        <module name="dynamic-proxy-jdk" />
+        <module name="spring6-004-bean-instantiation" />
+        <module name="factory-method" />
+        <module name="spring6-002-dependency-injection" />
         <module name="myspring" />
         <module name="annotation-review" />
         <module name="spring6-006-circular-dependency" />
-        <module name="spring6-004-bean-instantiation" />
+        <module name="static-proxy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
