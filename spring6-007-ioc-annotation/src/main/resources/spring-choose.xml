@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--
+        第一种解决方案：use-default-filters="false"
+            如果这个属性是false，表示com.f.spring6.bean2包下所有的带有声明Bean的注解全部失效。
+            即@Component、@Controller、@Service、@Repository全部失效
+            我们再使用context:include-filter来使得某几种注解生效
+    -->
+    <!--<context:component-scan base-package="com.f.spring6.bean2" use-default-filters="false">-->
+    <!--    &lt;!&ndash;只有@Repository生效&ndash;&gt;-->
+    <!--    <context:include-filter type="annotation" expression="org.springframework.stereotype.Repository"/>-->
+    <!--</context:component-scan>-->
+
+    <!--
+        第二种解决方案：use-default-filters="true"
+            如果这个属性是true，表示com.f.spring6.bean2包下所有的带有声明Bean的注解全部有效。
+            即@Component、@Controller、@Service、@Repository全部有效。
+            我们再使用context:exclude-filter来使得某几种注解失效
+        use-default-filters默认值就是true，可以不用写
+    -->
+    <context:component-scan base-package="com.f.spring6.bean2" use-default-filters="true">
+        <!--只有@Repository失效-->
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Repository"/>
+    </context:component-scan>
+</beans>

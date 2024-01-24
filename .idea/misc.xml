@@ -17,6 +17,8 @@
         <option value="$PROJECT_DIR$/spring6-006-circular-dependency/pom.xml" />
         <option value="$PROJECT_DIR$/spring/pom.xml" />
         <option value="$PROJECT_DIR$/myspring/pom.xml" />
+        <option value="$PROJECT_DIR$/annotation-review/pom.xml" />
+        <option value="$PROJECT_DIR$/spring6-007-ioc-annotation/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

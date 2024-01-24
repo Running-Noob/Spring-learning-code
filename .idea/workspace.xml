@@ -13,8 +13,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
+        <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -57,7 +58,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "93bb2b9824a2f7732a8130d1233f4510",
+    "spring.configuration.checksum": "debca9c48d895adace4292ed2223285b",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -69,9 +70,9 @@
       <recent name="C:\Users\Running Noob\Code Project\Spring-learning-code\spring6-002-dependency-injection\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MySpringTest.testMySpring">
-    <configuration name="BeanLifeCycleTest.testBeanLifeCycleFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-005-bean-lifecycle" />
+  <component name="RunManager" selected="JUnit.IoCAnnotationTest.testConfigClass">
+    <configuration name="IoCAnnotationTest.testAutowired" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-007-ioc-annotation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.f.spring6.test.*" />
@@ -79,15 +80,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.f.spring6.test" />
-      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.BeanLifeCycleTest" />
-      <option name="METHOD_NAME" value="testBeanLifeCycleFive" />
+      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.IoCAnnotationTest" />
+      <option name="METHOD_NAME" value="testAutowired" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeanLifeCycleTest.testRegisterBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-005-bean-lifecycle" />
+    <configuration name="IoCAnnotationTest.testConfigClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-007-ioc-annotation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.f.spring6.test.*" />
@@ -95,15 +96,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.f.spring6.test" />
-      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.BeanLifeCycleTest" />
-      <option name="METHOD_NAME" value="testRegisterBean" />
+      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.IoCAnnotationTest" />
+      <option name="METHOD_NAME" value="testConfigClass" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircularDependencyTest.testCD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-006-circular-dependency" />
+    <configuration name="IoCAnnotationTest.testDIByAnnotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-007-ioc-annotation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.f.spring6.test.*" />
@@ -111,15 +112,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.f.spring6.test" />
-      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.CircularDependencyTest" />
-      <option name="METHOD_NAME" value="testCD" />
+      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.IoCAnnotationTest" />
+      <option name="METHOD_NAME" value="testDIByAnnotation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircularDependencyTest.testCD2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-006-circular-dependency" />
+    <configuration name="IoCAnnotationTest.testResource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-007-ioc-annotation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.f.spring6.test.*" />
@@ -127,24 +128,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.f.spring6.test" />
-      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.CircularDependencyTest" />
-      <option name="METHOD_NAME" value="testCD2" />
+      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.IoCAnnotationTest" />
+      <option name="METHOD_NAME" value="testResource" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySpringTest.testMySpring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myspring" />
+    <configuration name="IoCAnnotationTest.testSetAnnotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-007-ioc-annotation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.f.myspring.test.*" />
+          <option name="PATTERN" value="com.f.spring6.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.f.myspring.test" />
-      <option name="MAIN_CLASS_NAME" value="com.f.myspring.test.MySpringTest" />
-      <option name="METHOD_NAME" value="testMySpring" />
+      <option name="PACKAGE_NAME" value="com.f.spring6.test" />
+      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.IoCAnnotationTest" />
+      <option name="METHOD_NAME" value="testSetAnnotation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MySpringTest.testMySpring" />
-        <item itemvalue="JUnit.CircularDependencyTest.testCD2" />
-        <item itemvalue="JUnit.CircularDependencyTest.testCD" />
-        <item itemvalue="JUnit.BeanLifeCycleTest.testRegisterBean" />
-        <item itemvalue="JUnit.BeanLifeCycleTest.testBeanLifeCycleFive" />
+        <item itemvalue="JUnit.IoCAnnotationTest.testConfigClass" />
+        <item itemvalue="JUnit.IoCAnnotationTest.testResource" />
+        <item itemvalue="JUnit.IoCAnnotationTest.testAutowired" />
+        <item itemvalue="JUnit.IoCAnnotationTest.testDIByAnnotation" />
+        <item itemvalue="JUnit.IoCAnnotationTest.testSetAnnotation" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +183,8 @@
       <workItem from="1705755411049" duration="5838000" />
       <workItem from="1705811293945" duration="5769000" />
       <workItem from="1705823743545" duration="12888000" />
+      <workItem from="1705897021299" duration="10249000" />
+      <workItem from="1706070918754" duration="5848000" />
     </task>
     <servers />
   </component>
