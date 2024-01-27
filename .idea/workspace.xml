@@ -15,8 +15,10 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="spring-beans.schema" />
+        <option value="Mybatis-SqlMapper" />
+        <option value="mybatis-config" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -57,9 +59,14 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "fileTemplates",
     "spring.configuration.checksum": "d8e1060deb65038e64914d7bf4cf6c60",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -71,7 +78,7 @@
       <recent name="C:\Users\Running Noob\Code Project\Spring-learning-code\spring6-002-dependency-injection\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpringJunit5Test.testUser">
+  <component name="RunManager" selected="JUnit.SpringMybatisTest.testSpringMybatis">
     <configuration name="AopCaseTest.testSercurityLog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring6-009-aop-case" />
       <extension name="coverage">
@@ -83,22 +90,6 @@
       <option name="PACKAGE_NAME" value="com.f.spring6.test" />
       <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.AopCaseTest" />
       <option name="METHOD_NAME" value="testSercurityLog" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AopCaseTest.testTransaction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-009-aop-case" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.f.spring6.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.f.spring6.test" />
-      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.AopCaseTest" />
-      <option name="METHOD_NAME" value="testTransaction" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,13 +142,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringMybatisTest.testSpringMybatis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-011-springmybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.f.spring6.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.f.spring6.test" />
+      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.SpringMybatisTest" />
+      <option name="METHOD_NAME" value="testSpringMybatis" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringMybatisTest.testSpringMybatis" />
         <item itemvalue="JUnit.SpringJunit5Test.testUser" />
         <item itemvalue="JUnit.SpringJunit4Test" />
         <item itemvalue="JUnit.SpringJunit4Test.testUser" />
         <item itemvalue="JUnit.AopCaseTest.testSercurityLog" />
-        <item itemvalue="JUnit.AopCaseTest.testTransaction" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +196,8 @@
       <workItem from="1706098904915" duration="4928000" />
       <workItem from="1706158948974" duration="7024000" />
       <workItem from="1706235815551" duration="3764000" />
-      <workItem from="1706334705038" duration="1479000" />
+      <workItem from="1706334705038" duration="2700000" />
+      <workItem from="1706337691395" duration="5291000" />
     </task>
     <servers />
   </component>

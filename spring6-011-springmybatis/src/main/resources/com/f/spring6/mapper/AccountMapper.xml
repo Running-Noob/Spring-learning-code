@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.f.spring6.mapper.AccountMapper">
+    <insert id="insert">
+        INSERT INTO t_act VALUES (#{actno}, #{balance})
+    </insert>
+    <delete id="deleteByActno">
+        DELETE FROM t_act
+        <where>
+            actno = #{actno}
+        </where>
+    </delete>
+    <update id="update">
+        UPDATE t_act
+        <set>
+            balance = #{balance}
+        </set>
+        <where>
+            actno = #{actno}
+        </where>
+    </update>
+    <select id="selectByActno" resultType="Account">
+        SELECT actno, balance
+        FROM t_act
+        <where>
+            actno = #{actno}
+        </where>
+    </select>
+    <select id="selectAll" resultType="Account">
+        SELECT actno, balance
+        FROM t_act
+    </select>
+</mapper>
