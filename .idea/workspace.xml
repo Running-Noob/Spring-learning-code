@@ -49,7 +49,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Running Noob/Code Project/Spring-learning-code/dynamic-proxy-jdk/src/main/java",
+    "last_opened_file_path": "C:/Users/Running Noob/Code Project/Spring-learning-code/spring6-010-junit",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,7 +58,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "8867ffc85b49f92a8929c3b484b77a00",
+    "spring.configuration.checksum": "d8e1060deb65038e64914d7bf4cf6c60",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -71,7 +71,7 @@
       <recent name="C:\Users\Running Noob\Code Project\Spring-learning-code\spring6-002-dependency-injection\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AopCaseTest.testSercurityLog">
+  <component name="RunManager" selected="JUnit.SpringJunit5Test.testUser">
     <configuration name="AopCaseTest.testSercurityLog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring6-009-aop-case" />
       <extension name="coverage">
@@ -104,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringAOPTest.testAdvice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-008-spring-aspectj-aop-anno" />
+    <configuration name="SpringJunit4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-010-junit" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.f.spring6.test.*" />
@@ -113,15 +113,30 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.f.spring6.test" />
-      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.SpringAOPTest" />
-      <option name="METHOD_NAME" value="testAdvice" />
+      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.SpringJunit4Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringJunit4Test.testUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-010-junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.f.spring6.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.f.spring6.test" />
+      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.SpringJunit4Test" />
+      <option name="METHOD_NAME" value="testUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringAOPTest.testBeforeAndAfter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-008-spring-aspectj-aop-anno" />
+    <configuration name="SpringJunit5Test.testUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-010-junit" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.f.spring6.test.*" />
@@ -129,24 +144,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.f.spring6.test" />
-      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.SpringAOPTest" />
-      <option name="METHOD_NAME" value="testBeforeAndAfter" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringAOPTest.testNoXML" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-008-spring-aspectj-aop-anno" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.f.spring6.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.f.spring6.test" />
-      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.SpringAOPTest" />
-      <option name="METHOD_NAME" value="testNoXML" />
+      <option name="MAIN_CLASS_NAME" value="com.f.spring6.test.SpringJunit5Test" />
+      <option name="METHOD_NAME" value="testUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringJunit5Test.testUser" />
+        <item itemvalue="JUnit.SpringJunit4Test" />
+        <item itemvalue="JUnit.SpringJunit4Test.testUser" />
         <item itemvalue="JUnit.AopCaseTest.testSercurityLog" />
         <item itemvalue="JUnit.AopCaseTest.testTransaction" />
-        <item itemvalue="JUnit.SpringAOPTest.testNoXML" />
-        <item itemvalue="JUnit.SpringAOPTest.testAdvice" />
-        <item itemvalue="JUnit.SpringAOPTest.testBeforeAndAfter" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +189,7 @@
       <workItem from="1706098904915" duration="4928000" />
       <workItem from="1706158948974" duration="7024000" />
       <workItem from="1706235815551" duration="3764000" />
+      <workItem from="1706334705038" duration="1479000" />
     </task>
     <servers />
   </component>
